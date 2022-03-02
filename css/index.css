@@ -3,3 +3,73 @@
     padding: 0%;
     box-sizing: border-box;
 }
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+} 
+ .logo{
+    margin-right: 47%;
+}
+
+/* .nav-text{
+    margin-right: 4%;
+} */
+
+img{
+    width: 5%;
+    /* height: 10%; */
+}
+.nav-bar{
+    position: fixed;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    height: 25px;
+    justify-content: space-between;
+    /* padding: -10%; */
+}
+.nav-menu{
+    align-items: center;
+    margin-right: 20%;
+    justify-content: space-between;
+}
+
+.nav-menu li{
+   margin-right: -4%;
+   justify-content: space-between;
+}
+
+.nav-bar .nav-text{
+    padding-left: -10%;
+}
+
+.nav-menu ul li{
+    display: inline-block;
+    list-style-type: square;
+    align-items: center;
+    text-decoration: none;
+    padding: 0% 15px 0px 15px;
+    justify-content: center;
+    /* margin-right: 5%; */
+}
+
+.nav-menu ul li a{
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+    /* padding: 0% 5% 5% 0%; */
+}
+
+.nav-menu ul li a:hover{
+    color: crimson;
+    
+}
+
+/* media queries */
+@media only screen and (max-width: 760px) {
+    body {
+      background-color: lightblue;
+    }
+  }
