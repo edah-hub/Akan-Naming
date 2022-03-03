@@ -10,15 +10,19 @@
     box-sizing: border-box;
 } 
  .logo{
-    margin-right: 47%;
+    margin-right: 50%;
+}
+header{
+    background-image: url(images/bc.jpg);
 }
 
-/* .nav-text{
-    margin-right: 4%;
-} */
+.nav-text{
+    font-family: "Sofia", sans-serif;
+    font-weight: 800;
+} 
 
-img{
-    width: 5%;
+.logo img{
+    width: 15%;
     /* height: 10%; */
 }
 .nav-bar{
@@ -28,17 +32,20 @@ img{
     display: flex;
     height: 25px;
     justify-content: space-between;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     /* padding: -10%; */
 }
 .nav-menu{
     align-items: center;
-    margin-right: 20%;
+    margin-right: 10%;
     justify-content: space-between;
 }
 
 .nav-menu li{
    margin-right: -4%;
    justify-content: space-between;
+   /* width: 100%; */
 }
 
 .nav-bar .nav-text{
@@ -65,6 +72,10 @@ img{
 .nav-menu ul li a:hover{
     color: crimson;
     
+}
+.container{
+    color: black;
+    background-color: palevioletred;
 }
 
 /* media queries */
