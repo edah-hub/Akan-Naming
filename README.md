@@ -12,8 +12,9 @@ A web application that takes a user's birthday and calculates the day of the wee
 
 ##### Requirements
 
--JSFiddle or JavaScript Console
--Git and Github installed.
+- JSFiddle or JavaScript Console
+- Git and Github installed.
+
 
 ##### Setup Instructions and Installation
 
