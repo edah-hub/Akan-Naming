@@ -8,14 +8,15 @@ body{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    background-image: url(../images/bc.jpg);
+    /* background-image: url(../images/bc.jpg); */
 } 
  .logo{
     margin-right: 50%;
 }
-header{
+ .container{
     background-image: url(images/bc.jpg);
     background-image: url(images/bc.jpg);
+    background-image: url(../images/bc.jpg);
 }
 
 .nav-text{
