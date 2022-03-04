@@ -8,15 +8,19 @@ body{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    /* background-image: url(../images/bc.jpg); */
+    background-image: url(../images/bc1.jpg); 
+    background-repeat: no-repeat;
+    height: 50vh;
 } 
  .logo{
     margin-right: 50%;
 }
  .container{
+     font-size: large;
+     
+    /* background-image: url(images/bc.jpg);
     background-image: url(images/bc.jpg);
-    background-image: url(images/bc.jpg);
-    background-image: url(../images/bc.jpg);
+    background-image: url(../images/bc.jpg); */
 }
 
 .nav-text{
@@ -80,6 +84,14 @@ body{
 .container{
     color: black;
     /* background-color: palevioletred; */
+}
+
+#footer{
+    font-size: 12px;
+    text-decoration: none;
+    color: #000;
+    margin-top: 12%;
+    /* background-color: brown; */
 }
 
 /* media queries */
