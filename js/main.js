@@ -76,6 +76,26 @@ let dayValid = dayValidator();
 let dayOfWeekNumber = Math.floor((((Number(yearOfBirth.slice(0,2))/4)-2*Number(yearOfBirth.slice(0,2))-1)+
 ((5*Number(yearOfBirth.slice(2,4))/4))+((26*(monthOfBirth+1)/10))+dayOfBirth)%7);
 
+// An Array of Akan Names for Males and Females
+let femaleNames = [
+   "Akosua",
+   "Adwoa",
+   "Abenaa",
+   "Akua",
+   "Yaa",
+   "Afua",
+   "Ama"
+];
+
+let maleNames = [
+   "Kwasi",
+   "Kwadwo",
+   "Kwabena",
+   "Kwaku",
+   "Yaw",
+   "Kofi",
+   "Kwame"
+];
 
 
 
