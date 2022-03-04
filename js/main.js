@@ -29,3 +29,26 @@ function getAkanName () {
    let dayOfBirth = Number(document.getElementById("day-input").value);
 }
 
+// To Get Genders
+function getGender () {
+   for (let gender of genders){
+     if (gender.checked){
+       return gender.value;
+     }
+   }
+ }
+ let myGenderValue = getGender();
+
+ console.log(myGenderValue);
+
+//  To Validate Functions
+  function monthValidator () {
+    if (monthOfBirth < 1 || monthOfBirth > 12) {
+      return false;
+    } else {
+      return true;
+    }
+  }
+
+
+ 

@@ -40,28 +40,31 @@
            Kindly fill the form below to check your Akan Name:
          </p>
          <!-- form -->
-         <form action="myform" onsubmit="getAkanName()">
+         <form action="myform" onsubmit="getAkanName()" id="akanForm">
          <label for="year-of-birth">
          Year of Birth:
-         <input type="year-of -birth" type="date" name="year-of-birth" placeholder="" value="YYYY" required> <br> <br> <br>
+         <input name="year-of -birth" type="date" id="year-input" placeholder="YYYY" value="" required> <br> <br> <br>
         </label>
         <label for="year-of-birth">
          Month of Birth:
-         <input type="month-of -birth" type="number" name="month-of-birth" placeholder="" value="" required> <br> <br> <br>
+         <input name="month-of -birth" type="number" id="month-input" placeholder="MM" value="" required> <br> <br> <br>
         </label>
         <label for="year-of-birth">
          Date of Birth
-         <input type="date-of -birth" type="number" name="date-of-birth" placeholder="" value="" required> <br> <br> <br>
+         <input name="date-of -birth" type="number" id="date-input" placeholder="DD" value="" required> <br> <br> <br>
          </label>
          <br> <br>
 
           <!-- gender form -->
        <p>Select Your Gender</p>
-         <label for="gender">Male</label><input type="radio">
-         <label for="gender-1">Female</label><input type="radio">  <br> 
-         <input type="submit" value="submit">
-         <!-- clear output -->         
-         <input type="clear" type="submit" value="clear-input"> 
+         <label for="gender">Male</label><input type="radio" id="male-input">
+         <label for="gender-1">Female</label><input type="radio" id="female-input">  <br> 
+          <!-- Submit -->
+         <input type="submit" value="submit" id="get-name">
+         <!-- clear output --> 
+         <button onclick="clearInput()">        
+         <input type="clear" type="submit" value="Reset"> 
+        </button>
         </form>
         <!-- display of Akan Name -->
         <p id = display-name><strong>Your Akan name is:</strong></p>
