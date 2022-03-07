@@ -1,4 +1,3 @@
-// Form Validation
 
 let form = document.getElementById("form");
 let yearOfBirth = document.getElementById("year");
@@ -8,6 +7,16 @@ let myResult = document.querySelector("#result")
 
 form.addEventListener("submit", (event) =>{
   event.preventDefault();
+
+  var e = document.getElementById("form");
+e.addEventListener('click',function(){location.reload()});
+
+  function myLogin(){
+    if(date.value.length=="" || month.value.length==""){
+      document.getElementById("form").innerHTML="PLEASE FILL ALL THE FIELDS!!"
+     return false;
+    }
+  }
 
   let genderOfGenders = form.gender.value;
 
